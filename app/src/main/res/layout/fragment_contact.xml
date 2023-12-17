@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="26dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feedback_string"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/feedbackText"
+        />
+
+    <Button
+        android:id="@+id/btnPhoneCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedbackText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/call"
+        android:textAllCaps="false"
+        android:backgroundTint="#5C91C56F"
+        android:padding="12dp"
+        android:background="@drawable/btn_rounded_theme"/>
+
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPhoneCall"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:text="@string/send_email"
+        android:background="@drawable/btn_rounded_theme"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+
+    <DatePicker
+        android:id="@+id/date_Picker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:datePickerMode = "spinner"
+        android:calendarViewShown="false"/>
+
+    <EditText
+        android:id="@+id/editTextBreakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/breakfast"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+    <EditText
+        android:id="@+id/editTextLunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lunch"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+    <EditText
+        android:id="@+id/editTextDinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dinner"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_rounded_corner"/>
+
+</LinearLayout>
